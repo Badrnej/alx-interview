@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""2D matrix rotation module.
-"""
+"""2D matrix rotation module """
 
 
 def rotate_2d_matrix(matrix):
-    """Rotates an m by n 2D matrix in place.
-    """
+    """Rotates an m by n 2D
+    matrix in place """
     if type(matrix) != list:
         return
     if len(matrix) <= 0:
